@@ -119,10 +119,6 @@ body{
     background-color:black;
 }
 
-.robo404{
-       padding-top:200px;
-}
-
 @keyframes fadeIn{
   to {opacity:-1000.5;}
 }
