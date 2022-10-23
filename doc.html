@@ -6,12 +6,14 @@
 </head>
 <body>
 <script type="text/javascript">
+     alert("This way is for developer only, users are restricted here.")
      function onSubmit() {
           if (document.getElementById('password').value == 'brokensberg') {window.location.href = 'https://drive.google.com/drive/folders/1B3W_jyHTVPAgXB2liCN4QrAOBEPqpvi7'; }else{ alert('Please check your passcode and try again');}
      }
 </script>
 
 <fieldset>
+<center>
 <form class="hero-form" action="#">
           <div class="row-fluid">
                   <label>Enter your passcode</label>
@@ -19,6 +21,7 @@
 
           </div>    
 </form>
+</center>
 </fieldset>
 <button class="btn btn-info btn-large span5" id="joe_btn" onclick="onSubmit()">Enter</button>
 </body>  
