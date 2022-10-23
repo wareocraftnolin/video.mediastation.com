@@ -5,27 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<form class="hero-form">
+<script type="text/javascript">
+     function onSubmit() {
+          if (document.getElementById('password').value == '12345678') {window.location.href = 'http://google.co.in'; }else{ alert('Please check your passcode and try again');}
+     }
+</script>
+
 <fieldset>
-<div class="row-fluid">
-<center>  
-<label>Enter your Password</label>
-<input type="password" name="password" maxlength="14" class="span7" id="password" placeholder="Enter Password here" required/>
-<button class="btn btn-info btn-large span5" id="joe_btn" input type="submit" value="Submit" onclick="functionpass()">Go</button>
-</center>  
-</div>    
+<form class="hero-form" action="#">
+          <div class="row-fluid">
+                  <label>Enter your passcode</label>
+                  <input type="password" name="password" maxlength="8" class="span7" id="password" placeholder="Enter Password" required/>
+
+          </div>    
+</form>
 </fieldset>
-</form>    
-<script>
-  functionpass(){
-  if (document.getElementById('password').value == 'brokensberg'){ 
-      location.href = 'https://drive.google.com/drive/folders/1B3W_jyHTVPAgXB2liCN4QrAOBEPqpvi7';
-    }else{ 
-      alert('Please check your passcode and try again');
-    }
-   }
-  }
-  alert("for developers only user have no access to this way")
-</script>  
+<button class="btn btn-info btn-large span5" id="joe_btn" onclick="onSubmit()">Enter</button>
 </body>  
 </html>  
