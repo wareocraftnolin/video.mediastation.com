@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html>
   <body>
-    
+
+<form class="hero-form">
+<fieldset>
+<div class="row-fluid">
+<label>Enter your passcode</label>
+<input type="password" name="password" maxlength="8" class="span7" id="password" placeholder="e.g. 12345678" required/>
+<button class="btn btn-info btn-large span5" id="joe_btn" input type="submit" value="Submit" onclick="if (document.getElementById('password').value == '12345678') location.href = 'http://example.url.here'; else alert('Please check your passcode and try again');">Enter</button>
+</div>    
+</fieldset>
+</form>    
+
+  <script>
+  </script>  
   </body>  
 </html>  
