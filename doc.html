@@ -11,17 +11,20 @@
 <center>  
 <label>Enter your Password</label>
 <input type="password" name="password" maxlength="14" class="span7" id="password" placeholder="Enter Password here" required/>
-<button class="btn btn-info btn-large span5" id="joe_btn" input type="submit" value="Submit" onclick="if (document.getElementById('password').value == 'brokensberg'){ 
-      location.href = 'https://drive.google.com/drive/folders/1B3W_jyHTVPAgXB2liCN4QrAOBEPqpvi7';
-    }else{ 
-      alert('Please check your passcode and try again');
-    }
-  }">Go</button>
+<button class="btn btn-info btn-large span5" id="joe_btn" input type="submit" value="Submit" onclick="functionpass()">Go</button>
 </center>  
 </div>    
 </fieldset>
 </form>    
 <script>
+  functionpass(){
+  if (document.getElementById('password').value == 'brokensberg'){ 
+      location.href = 'https://drive.google.com/drive/folders/1B3W_jyHTVPAgXB2liCN4QrAOBEPqpvi7';
+    }else{ 
+      alert('Please check your passcode and try again');
+    }
+   }
+  }
   alert("for developers only user have no access to this way")
 </script>  
 </body>  
