@@ -57,7 +57,7 @@ body{
 }
 
 .video-portal{
-         background:#acaeb0;
+         background-color:#acaeb0;
          padding-left:0px;
          width:100%;
          height:2000px;
@@ -69,7 +69,7 @@ body{
 
 .abtbdy{
           height:100%;
-          background:#acaeb0;
+          background-color:#acaeb0;
 }
 
 .footer{
