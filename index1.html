@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="demo.css" type=text/css rel="stylesheet">
+</head>
+<body>
+<script type="text/javascript">
+     function onSubmit() {
+          if (document.getElementById('password').value == 'brokensberg') {window.location.href = 'home.html'; }else{ alert('Please check your passcode and try again');}
+     }
+</script>
+<center>
+<div class="hero">
+<fieldset>
+<form class="hero-form" action="#">
+          <div class="row-fluid">
+                  <label>Enter your passcode</label>
+                  <input type="password" name="password" maxlength="14" class="span7" id="password" placeholder="Enter Password" required/>
+
+          </div>    
+</form>
+</fieldset>
+</div>
+</center>
+<center>
+<button class="btn btn-info btn-large span5" id="joe_btn" onclick="onSubmit()">Enter</button>
+</center>
+</body>  
+</html>  
