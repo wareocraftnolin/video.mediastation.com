@@ -46,6 +46,9 @@ body{
        padding-left:0px;
        float:left;
 }
+menu a:hover{
+       background-color: #111111;
+}
 
 .tagline-text{
        color:#fff;
