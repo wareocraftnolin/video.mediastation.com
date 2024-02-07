@@ -46,8 +46,9 @@ body{
        padding-left:0px;
        float:left;
 }
-menu a:hover{
+.menu a:hover{
        background-color: #111111;
+       height:20;
 }
 
 .tagline-text{
