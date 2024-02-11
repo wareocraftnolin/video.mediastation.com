@@ -117,7 +117,8 @@ menu a:hover{
 }
 
 .cnt{
-       font-color:yellow;
+       background-color:yellow;
+       font-color:blue;
 }
 
 .contbdy{
